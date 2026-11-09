@@ -1,0 +1,7 @@
+# Archivos de sistema y temporales
+*.tmp
+*.log
+.DS_Store
+
+# Archivos pesados o intermedios descargados reutilizables
+data/raw/*.tmp

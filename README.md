@@ -14,7 +14,9 @@ Este proyecto automatiza la adquisición de secuencias, caracterización de patr
    git clone https://github.com/GonzaloRohrr/tp_final_bioinformatica.git
 2. Otorgar permisos de ejecución:
    chmod +x scripts/pipeline_bioinfor2026_6P9X.sh
-3. Ejecutar el pipeline automatizado:
+3. (este paso solo por si falla). Convertir los saltos de línea al formato Unix (LF):
+      sed -i 's/\r$//' scripts/pipeline_bioinfor2026_6P9X.sh
+5. Ejecutar el pipeline automatizado:
    ./scripts/pipeline_bioinfor2026_6P9X.sh
 
 ## Referencias Bibliográficas
